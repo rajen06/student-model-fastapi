@@ -1,5 +1,4 @@
 from fastapi import FastAPI
-from pydantic import BaseModel, Field, Extra
 from fastapi.encoders import jsonable_encoder
 from db import (
     add_user,

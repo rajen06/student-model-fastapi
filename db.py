@@ -5,7 +5,7 @@ from data_validation import (
 )
 
 
-uri = "mongodb+srv://baghelraj45:no8twbvMeveO4Xw2@cluster0.3xse5mq.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://baghelraj45:@cluster0.3xse5mq.mongodb.net/?retryWrites=true&w=majority"
 client = motor_asyncio.AsyncIOMotorClient(
     uri, tls=True, tlsAllowInvalidCertificates=True)
 db = client.users
